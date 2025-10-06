@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { Hello } from './component/Hello';
+import { Welcome } from './component/Welcome'; 
+import { Navbar } from './component/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          HELLO, THIS IS NINA MARIE "MARIK" C. AURESTILA
-        </p>
-        <a
-          className="Contact Me"
-          href="https://www.messenger.com/e2ee/t/1301615228294570"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Contact Me Here!
-        </a>
-      </header>
+     
+      {/* <Hello />
+      <Welcome /> */}
+
+      <Navbar />
+      
     </div>
   );
 }
